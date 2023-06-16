@@ -1,8 +1,9 @@
 .listcar{
-    list-style: none;
-    padding-bottom: 10px;
-    background-color: black;
+    display: flex;
 }
-.listcar li {
-    color: gold;
+.descrilist{
+    padding-left: 20px;
+}
+.precolist{
+    padding-left: 50px;
 }
