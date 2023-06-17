@@ -10,20 +10,15 @@ export default async function CarrosAPI(){
     const cars = await getCarsData()
     return (
         <div className={styles.listcar}> 
-           
-        <div>
-    
-        {cars.map((car) => {
-                return console.log(car.img), <img src={cars.img} alt="Carros" width={300} height={300}></img>
-            })}
-        
-        </div>
 
-
-        <div>
+        <div className={styles.allcar}>
 
             {cars.map((car) => {
-                return <p>{car.nome}: {car.descricao}: {car.preco}</p>
+                return  <div key={car.nome}><h1 className={styles.namecar}>{car.nome}:</h1> 
+                <div className={styles.imgcar}><Image src={car.img} alt={car.nome} width={475} height={300}></Image> </div>
+                <h2 className={styles.descricar}>{car.descricao}:</h2> 
+                <h1 className={styles.precar}>{car.preco} </h1>
+                </div>
             })}
         </div>
 

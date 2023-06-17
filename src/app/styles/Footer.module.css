@@ -1,0 +1,16 @@
+.footer {
+    background-color: blue;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    padding: 20px;
+}
+.footer h1{
+    margin-right: 10px;
+    color: white;
+}
+
+.footer a{
+    padding: 10px;
+}
+

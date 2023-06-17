@@ -1,9 +1,47 @@
+
 .listcar{
+    background-color: white;
+    
+}
+
+.allcar{
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+.namecar{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: blue;
 }
-.descrilist{
-    padding-left: 20px;
+.imgcar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
-.precolist{
-    padding-left: 50px;
+.precar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+.descricar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: black;
 }
