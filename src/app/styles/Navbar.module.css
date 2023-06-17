@@ -1,6 +1,9 @@
 .navbar{
     display: flex;
-    padding: 15px;
-    background-color: wheat;
-    
+    padding: 10px;
+    background-color: black;
+}
+.navbar h1{
+    color: purple;
+    padding: 10px;
 }

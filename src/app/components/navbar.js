@@ -6,12 +6,12 @@ export default function Navbar() {
         <div className={styles.navbar}>
           
             <Link href="/">
-                Home
+               <h1>  Home</h1>
             </Link>
            
            
         <Link href="/CarrosAPI">
-            Carros
+            <h1>Carros </h1>
         </Link>
             
         </div>
