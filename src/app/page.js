@@ -1,10 +1,13 @@
-
+import Funcionamento from "./Funcionamento/page"
+import Servicos from "./Servicos/page"
 
 export default function Home() {
 
   return (
     <main>
-    <h1>oi</h1>
+    <Servicos></Servicos>
+    <Funcionamento></Funcionamento>
+    
     </main>
   )
 }

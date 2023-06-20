@@ -15,8 +15,8 @@ export default async function CarrosAPI(){
 
             {cars.map((car) => {
                 return  <div key={car.nome}><h1 className={styles.namecar}>{car.nome}:</h1> 
-                <div className={styles.imgcar}><Image src={car.img} alt={car.nome} width={475} height={300}></Image> </div>
-                <h2 className={styles.descricar}>{car.descricao}:</h2> 
+                <div className={styles.imgcar}><Image src={car.img} alt={car.nome} width={425} height={300}></Image> </div>
+                <h3 className={styles.descricar}>{car.descricao}:</h3> 
                 <h1 className={styles.precar}>{car.preco} </h1>
                 </div>
             })}
