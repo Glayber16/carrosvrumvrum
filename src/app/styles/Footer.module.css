@@ -2,21 +2,29 @@
     display: flex;
     background-color: blue;
     display: flex;
-    padding: 10px;
+    padding-top: 10px;
+    justify-content: space-between;
 }
 .footer h1{
-    margin-right: 10px;
+  
     color: white;
 }
 
 .footer a{
-    padding: 10px;
+    padding-left: 10px;
 }
 
 .canto {
-    
-
-    justify-content: flex-end;
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-right: 10px;
+}
+
+.caricon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 250px;
 }
