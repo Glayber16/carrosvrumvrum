@@ -7,7 +7,6 @@ export default function Home() {
     <main>
     <Servicos></Servicos>
     <Funcionamento></Funcionamento>
-    <Cardi> <img src="car.png" alt="" /></Cardi>
     </main>
   )
 }

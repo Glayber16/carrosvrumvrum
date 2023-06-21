@@ -1,6 +1,6 @@
 import styles from "../styles/Carros.module.css"
 import Image from "next/image"
-import Cardi from "../Cardi/page"
+
 
 const getCarsData = async () => {
     const response = await fetch("https://apitrainees.herokuapp.com/carros")
