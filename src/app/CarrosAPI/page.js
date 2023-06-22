@@ -10,17 +10,19 @@ const getCarsData = async () => {
 export default async function CarrosAPI(){
     const cars = await getCarsData()
     return (
+        
         <div className={styles.listcar}> 
-
+         
         <div className={styles.allcar}>
 
             {cars.map((car) => {
-                return  <div key={car.nome}><h1 className={styles.namecar}>{car.nome}:</h1> 
-                
-
-       <div className={styles.imgcar}> <div className={styles.card}><Image src={car.img} alt={car.nome} width={425} height={300}></Image> </div> </div>
-                <h3 className={styles.descricar}>{car.descricao}:</h3> 
+                return <div key={car.nome} className={styles.card}><h1 className={styles.namecar}>{car.nome}:</h1> 
+       <div className={styles.imgcar}> <Image src={car.img} alt={car.nome} width={265} height={200}></Image> </div>
+                <p className={styles.descricar}>{car.descricao}</p> 
                 <h1 className={styles.precar}>{car.preco} </h1>
+                <button className={styles.box}>
+                    <p className={styles.textbutton}>Compre Agora</p>
+                </button>
                 </div>
             })}
         </div>

@@ -1,12 +1,11 @@
 .footer {
     display: flex;
-    background-color: blue;
-    display: flex;
+    background-color: #001427ff;
     padding-top: 10px;
     justify-content: space-between;
 }
 .footer h1{
-  
+    
     color: white;
 }
 
@@ -26,5 +25,4 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-right: 250px;
 }
