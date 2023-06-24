@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <Banner></Banner>
     <Servicos></Servicos>
-    
+
     <Funcionamento></Funcionamento>
 
     </main>

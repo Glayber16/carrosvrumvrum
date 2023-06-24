@@ -1,12 +1,20 @@
-.serv{
+
+.servi{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    background-image: url(/carban.png);
+    /* background-image: url(/carban.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right; */
 
+
+}
+
+.carphoto {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
 
 }

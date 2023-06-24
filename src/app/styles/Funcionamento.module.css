@@ -1,12 +1,16 @@
 .funcao {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     justify-items: center;
-    background-image: url(/testcars.png);
+    /* background-image: url(/testcars.png);
     background-repeat: no-repeat;
     background-position: left;
-    padding-right: 10px;
+    padding-right: 10px; */
 }
 
+.carrolado{
+    display: flex;
+
+}
