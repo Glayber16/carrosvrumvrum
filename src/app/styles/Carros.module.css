@@ -48,7 +48,7 @@
 
   
 .card {
-    width: 250px;
+    width: 350px;
     height: 600px;
     border-radius: 30px;
     background: lightgrey;
@@ -62,7 +62,7 @@
 .card:hover {
     -xpedu-transform: scale(1.2);
     -ms-transform: scale(1.2);
-    transform: scale(1.2); 
+    transform: scale(1.1); 
    
 }
 

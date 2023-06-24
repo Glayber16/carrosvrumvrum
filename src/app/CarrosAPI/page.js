@@ -1,3 +1,4 @@
+'use client'
 import styles from "../styles/Carros.module.css"
 import Image from "next/image"
 
@@ -17,10 +18,10 @@ export default async function CarrosAPI(){
 
             {cars.map((car) => {
                 return <div key={car.nome} className={styles.card}><h1 className={styles.namecar}>{car.nome}:</h1> 
-       <div className={styles.imgcar}> <Image src={car.img} alt={car.nome} width={265} height={200}></Image> </div>
+       <div className={styles.imgcar}> <Image src={car.img} alt={car.nome} width={350} height={250}></Image> </div>
                 <p className={styles.descricar}>{car.descricao}</p> 
                 <h1 className={styles.precar}>{car.preco} </h1>
-                <button className={styles.box}>
+                <button className={styles.box} onClick={console.log}>
                     <p className={styles.textbutton}>Compre Agora</p>
                 </button>
                 </div>

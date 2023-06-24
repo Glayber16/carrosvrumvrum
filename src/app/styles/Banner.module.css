@@ -1,0 +1,18 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.carpic{
+    max-width: 100%;
+    height: auto;
+}
+
+.banner h1{
+    font-size: 3.0rem;
+
+}
+.banner p{
+    font-size: 1.5rem;
+}
