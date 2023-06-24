@@ -1,7 +1,17 @@
 .funcao {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     justify-items: center;
+    background-image: url(/testcars.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-right: 10px;
 }
+
+@media only screen and (max-width: 480px) {
+    background-image: url(/testcars.png); {
+      width: 0%;
+    }
+  }
